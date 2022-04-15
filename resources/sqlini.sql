@@ -1,0 +1,6 @@
+USE nodedb;
+CREATE TABLE IF NOT EXISTS people (
+    id MEDIUMINT NOT NULL AUTO_INCREMENT,
+     name CHAR(30) NOT NULL,
+     PRIMARY KEY (id)
+);
